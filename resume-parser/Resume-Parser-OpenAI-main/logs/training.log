@@ -1,0 +1,79 @@
+2025-02-07 06:24:09,004 - INFO - \u2705 Dataset loaded successfully with shape (9544, 35)
+2025-02-07 06:24:09,004 - INFO - Dataset columns: ['address', 'career_objective', 'skills', 'educational_institution_name', 'degree_names', 'passing_years', 'educational_results', 'result_types', 'major_field_of_studies', 'professional_company_names', 'company_urls', 'start_dates', 'end_dates', 'related_skils_in_job', 'positions', 'locations', 'responsibilities', 'extra_curricular_activity_types', 'extra_curricular_organization_names', 'extra_curricular_organization_links', 'role_positions', 'languages', 'proficiency_levels', 'certification_providers', 'certification_skills', 'online_links', 'issue_dates', 'expiry_dates', '\ufeffjob_position_name', 'educationaL_requirements', 'experiencere_requirement', 'age_requirement', 'responsibilities.1', 'skills_required', 'matched_score']
+2025-02-07 06:24:09,020 - ERROR - \u274c 'label' column is missing in the dataset.
+2025-02-07 06:25:34,505 - INFO - \u2705 Dataset loaded successfully with shape (9544, 35)
+2025-02-07 06:25:34,505 - INFO - Dataset columns: ['address', 'career_objective', 'skills', 'educational_institution_name', 'degree_names', 'passing_years', 'educational_results', 'result_types', 'major_field_of_studies', 'professional_company_names', 'company_urls', 'start_dates', 'end_dates', 'related_skils_in_job', 'positions', 'locations', 'responsibilities', 'extra_curricular_activity_types', 'extra_curricular_organization_names', 'extra_curricular_organization_links', 'role_positions', 'languages', 'proficiency_levels', 'certification_providers', 'certification_skills', 'online_links', 'issue_dates', 'expiry_dates', '\ufeffjob_position_name', 'educationaL_requirements', 'experiencere_requirement', 'age_requirement', 'responsibilities.1', 'skills_required', 'matched_score']
+2025-02-07 06:28:29,780 - INFO - \u2705 Dataset loaded successfully with shape (9544, 35)
+2025-02-07 06:28:29,780 - INFO - Dataset columns: ['address', 'career_objective', 'skills', 'educational_institution_name', 'degree_names', 'passing_years', 'educational_results', 'result_types', 'major_field_of_studies', 'professional_company_names', 'company_urls', 'start_dates', 'end_dates', 'related_skils_in_job', 'positions', 'locations', 'responsibilities', 'extra_curricular_activity_types', 'extra_curricular_organization_names', 'extra_curricular_organization_links', 'role_positions', 'languages', 'proficiency_levels', 'certification_providers', 'certification_skills', 'online_links', 'issue_dates', 'expiry_dates', '\ufeffjob_position_name', 'educationaL_requirements', 'experiencere_requirement', 'age_requirement', 'responsibilities.1', 'skills_required', 'matched_score']
+2025-02-07 06:28:29,812 - INFO - \u2705 Data split: Train size (7635, 34), Test size (1909, 34)
+2025-02-07 06:28:29,813 - ERROR - \u274c Model training failed: Invalid classes inferred from unique values of `y`.  Expected: [  0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17
+  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35
+  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53
+  54  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71
+  72  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89
+  90  91  92  93  94  95  96  97  98  99 100 101 102 103 104 105 106 107
+ 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125
+ 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143
+ 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161
+ 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179
+ 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197
+ 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215
+ 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233
+ 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251
+ 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269
+ 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287
+ 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305
+ 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320], got [0.04       0.05       0.05       0.08333333 0.09       0.1
+ 0.11666667 0.13333333 0.13333333 0.14666667 0.15       0.16
+ 0.16666667 0.16666667 0.17333333 0.18333333 0.18333333 0.19
+ 0.19666667 0.2        0.2        0.20666667 0.20666667 0.21
+ 0.21666667 0.21666667 0.22333333 0.22333333 0.22666667 0.23
+ 0.23333333 0.23333333 0.24       0.25       0.25666667 0.26666667
+ 0.27333333 0.27333333 0.27666667 0.28       0.28333333 0.28333333
+ 0.3        0.30666667 0.30666667 0.30666667 0.31       0.31333333
+ 0.31666667 0.31666667 0.31666667 0.32333333 0.33       0.33333333
+ 0.33333333 0.33666667 0.34       0.34333333 0.34666667 0.34666667
+ 0.35       0.35       0.36666667 0.36666667 0.37333333 0.37333333
+ 0.37666667 0.38       0.38       0.383333   0.38333333 0.38333333
+ 0.39       0.399999   0.4        0.4        0.40666667 0.40666667
+ 0.41       0.41333333 0.41666667 0.41666667 0.42       0.42333333
+ 0.42333333 0.42666667 0.43       0.433333   0.43333333 0.43333333
+ 0.44       0.44       0.44333333 0.44333333 0.44666667 0.44666667
+ 0.45       0.45333333 0.45666667 0.46       0.46       0.46333333
+ 0.46666667 0.46666667 0.47       0.47333333 0.47333333 0.47333333
+ 0.47666667 0.47666667 0.48       0.483333   0.48333333 0.48333333
+ 0.48333333 0.48666667 0.49       0.49333333 0.49333333 0.49666667
+ 0.5        0.50333333 0.50333333 0.50666667 0.50666667 0.51
+ 0.51333333 0.51666667 0.51666667 0.52       0.52333333 0.52666667
+ 0.52666667 0.53       0.53333333 0.53333333 0.53666667 0.53666667
+ 0.54       0.54333333 0.54333333 0.54666667 0.54666667 0.55
+ 0.55       0.55333333 0.55666667 0.55666667 0.56       0.56
+ 0.56333333 0.56333333 0.56666667 0.56666667 0.56666667 0.57
+ 0.57333333 0.57333333 0.57333333 0.576666   0.57666667 0.57666667
+ 0.58       0.58       0.583333   0.58333333 0.58333333 0.586666
+ 0.58666667 0.59       0.59333333 0.59333333 0.59666667 0.6
+ 0.60333333 0.60333333 0.606666   0.60666667 0.60666667 0.60666667
+ 0.61       0.613333   0.61333333 0.61333333 0.616666   0.61666667
+ 0.61666667 0.61666667 0.62       0.62333333 0.62333333 0.626666
+ 0.62666667 0.62666667 0.63333333 0.63333333 0.63666667 0.63666667
+ 0.64       0.64333333 0.64333333 0.64333333 0.64666667 0.65
+ 0.65333333 0.65666667 0.65666667 0.66       0.66666667 0.66666667
+ 0.67       0.67333333 0.67333333 0.67666667 0.67666667 0.67666667
+ 0.68       0.683333   0.68333333 0.68333333 0.68666667 0.68666667
+ 0.69       0.693222   0.69333333 0.69333333 0.695      0.7
+ 0.70333333 0.70333333 0.70666667 0.70666667 0.71       0.716666
+ 0.71666667 0.71666667 0.71666667 0.72       0.72666667 0.72666667
+ 0.72666667 0.73666667 0.73666667 0.73833333 0.74       0.74
+ 0.74333333 0.74666667 0.75       0.75333333 0.76       0.76
+ 0.76       0.76166667 0.763      0.76333333 0.77       0.77166667
+ 0.77333333 0.77333333 0.78       0.78       0.78166667 0.783333
+ 0.78333333 0.78333333 0.793222   0.79333333 0.79333333 0.795
+ 0.79633333 0.80333333 0.80333333 0.80633333 0.80666667 0.80666667
+ 0.81       0.816666   0.81666667 0.81666667 0.81666667 0.82455533
+ 0.826666   0.82666667 0.82666667 0.82833333 0.82966667 0.84
+ 0.84333333 0.85       0.86       0.86333333 0.87333333 0.87333333
+ 0.87466667 0.87666667 0.87666667 0.88       0.88333333 0.88333333
+ 0.89333333 0.89333333 0.89333333 0.895      0.89666667 0.90333333
+ 0.90666667 0.90666667 0.91       0.91666667 0.92       0.92333333
+ 0.92666667 0.92666667 0.93       0.93666667 0.93666667 0.94
+ 0.94333333 0.95       0.97      ]

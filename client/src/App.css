@@ -1,0 +1,19 @@
+/* src/App.css */
+
+/* Ensure the App container stretches to full viewport */
+.App {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); /* Match the background gradient */
+  overflow-x: hidden;
+}
+
+/* Remove any padding or margins that might cause white borders */
+.App > * {
+  width: 100vw;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
